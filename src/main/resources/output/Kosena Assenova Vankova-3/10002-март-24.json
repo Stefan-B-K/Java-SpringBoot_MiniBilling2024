@@ -1,0 +1,29 @@
+{
+  "documentDate": "2024-06-04T15:05:06Z",
+  "documentNumber": "10002",
+  "consumer": "Kosena Assenova Vankova",
+  "reference": "3",
+  "totalAmount": 436.00,
+  "lines": [
+    {
+      "index": 1,
+      "quantity": 370.60,
+      "lineStart": "2024-01-01T14:40:00Z",
+      "lineEnd": "2024-02-29T21:59:59Z",
+      "product": "gas",
+      "price": 0.4,
+      "priceList": 2,
+      "amount": 148.24
+    },
+    {
+      "index": 2,
+      "quantity": 65.40,
+      "lineStart": "2024-02-29T22:00:00Z",
+      "lineEnd": "2024-03-11T07:00:00Z",
+      "product": "gas",
+      "price": 4.4,
+      "priceList": 2,
+      "amount": 287.76
+    }
+  ]
+}

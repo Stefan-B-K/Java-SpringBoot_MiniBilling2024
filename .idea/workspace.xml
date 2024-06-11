@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="MiniBilling2024:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e79674a3-ff24-4e6a-8d1d-df5abb497054" name="Changes" comment="add @EnableTransactionManagement to main class">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="1a99cd4a6c8102ff865d99df565f9dc339658f3a" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2ghGAKTVRLmf8Ep9ebS4SEHrt70" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;StefanBK&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/stefan_kozuharov/УПРАЖНЕНИЯ/JAVA/MiniBilling2024/src/test/resources/sc5&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2045977&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/sc5" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/istef/minibilling2024" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="C:\Methodia\MiniBilling2024\src\test\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="C:\Methodia\MiniBilling2024" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.istef.minibilling2024.jackson" />
+      <recent name="com.istef.minibilling2024.entity" />
+      <recent name="com.istef.minibilling2024.exception" />
+      <recent name="com.istef.minibilling2024.controller" />
+      <recent name="com.istef.minibilling2024.dao.db" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.RUN BITCH">
+    <configuration name="RUN BITCH" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.istef.minibilling2024.MiniBilling2024" />
+      <module name="MiniBilling2024.main" />
+      <option name="PROGRAM_PARAMETERS" value="24-03 $PROJECT_DIR$/src/main/resources $PROJECT_DIR$/src/main/resources/output" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MiniBilling2024 [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="TESTs" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="MiniBilling2024" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="MiniBilling2024.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.istef.minibilling2024.MiniBilling2024" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.RUN BITCH" />
+      <item itemvalue="Gradle.TESTs" />
+      <item itemvalue="Gradle.MiniBilling2024 [clean]" />
+      <item itemvalue="Spring Boot.MiniBilling2024" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.MiniBilling2024 [clean]" />
+        <item itemvalue="Gradle.TESTs" />
+        <item itemvalue="Gradle.TESTs" />
+        <item itemvalue="Gradle.MiniBilling2024 [clean]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e79674a3-ff24-4e6a-8d1d-df5abb497054" name="Changes" comment="" />
+      <created>1716142250777</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716142250777</updated>
+      <workItem from="1716202711192" duration="100214000" />
+      <workItem from="1716442367448" duration="22151000" />
+      <workItem from="1716468690501" duration="83000" />
+      <workItem from="1716470045596" duration="11000" />
+      <workItem from="1716470336863" duration="111000" />
+      <workItem from="1716489392913" duration="629000" />
+      <workItem from="1716491989681" duration="323000" />
+      <workItem from="1716492647459" duration="92000" />
+      <workItem from="1716525598306" duration="40446000" />
+      <workItem from="1716827599335" duration="10366000" />
+      <workItem from="1716871630078" duration="14062000" />
+      <workItem from="1716892998044" duration="5575000" />
+      <workItem from="1716899417838" duration="5133000" />
+      <workItem from="1716904748910" duration="3000" />
+      <workItem from="1716914088803" duration="10534000" />
+      <workItem from="1716960917799" duration="8841000" />
+      <workItem from="1716972299430" duration="2399000" />
+      <workItem from="1716975546342" duration="3426000" />
+      <workItem from="1716979428429" duration="13353000" />
+      <workItem from="1716993597546" duration="3212000" />
+      <workItem from="1716996833703" duration="5583000" />
+      <workItem from="1717044092125" duration="2113000" />
+      <workItem from="1717046215401" duration="2295000" />
+      <workItem from="1717056068579" duration="1094000" />
+      <workItem from="1717057171782" duration="1313000" />
+      <workItem from="1717058642386" duration="7000" />
+      <workItem from="1717058864115" duration="3731000" />
+      <workItem from="1717062851836" duration="7027000" />
+      <workItem from="1717074686915" duration="2997000" />
+      <workItem from="1717078625429" duration="5422000" />
+      <workItem from="1717085924500" duration="1859000" />
+      <workItem from="1717088156938" duration="415000" />
+      <workItem from="1717088579549" duration="299000" />
+      <workItem from="1717093271059" duration="974000" />
+      <workItem from="1717130577804" duration="29196000" />
+      <workItem from="1717217121341" duration="10704000" />
+      <workItem from="1717234851131" duration="399000" />
+      <workItem from="1717303215347" duration="656000" />
+      <workItem from="1717303879870" duration="12298000" />
+      <workItem from="1717321512890" duration="68000" />
+      <workItem from="1717321583495" duration="4000" />
+      <workItem from="1717339107613" duration="9014000" />
+      <workItem from="1717396245074" duration="59000" />
+      <workItem from="1717396311347" duration="64000" />
+      <workItem from="1717396383239" duration="4030000" />
+      <workItem from="1717403826987" duration="23000" />
+      <workItem from="1717404400093" duration="443000" />
+      <workItem from="1717406105069" duration="319000" />
+      <workItem from="1717406545377" duration="20097000" />
+      <workItem from="1717483791324" duration="5858000" />
+      <workItem from="1717505520170" duration="8109000" />
+      <workItem from="1717513672743" duration="954000" />
+      <workItem from="1717514696834" duration="62000" />
+      <workItem from="1717517316835" duration="22000" />
+      <workItem from="1717517527291" duration="74000" />
+      <workItem from="1717567927289" duration="41000" />
+      <workItem from="1717593647803" duration="145000" />
+      <workItem from="1717593796933" duration="54000" />
+      <workItem from="1717744103066" duration="21927000" />
+      <workItem from="1717999711871" duration="1688000" />
+      <workItem from="1718086554743" duration="93000" />
+    </task>
+    <task id="LOCAL-00001" summary="Subtask 1 complete">
+      <option name="closed" value="true" />
+      <created>1716467749710</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716467749710</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Subtask 1 complete">
+      <option name="closed" value="true" />
+      <created>1716467790013</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716467790013</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Subtask 1 complete">
+      <option name="closed" value="true" />
+      <created>1716468747682</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716468747683</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Subtask 1 complete">
+      <option name="closed" value="true" />
+      <created>1716470442553</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716470442553</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Subtask 1 pricelist-2 complete">
+      <option name="closed" value="true" />
+      <created>1716797501148</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716797501148</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Distribution algorithm implemented">
+      <option name="closed" value="true" />
+      <created>1716904722020</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716904722020</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Distribution algorithm implemented">
+      <option name="closed" value="true" />
+      <created>1716907314450</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716907314450</updated>
+    </task>
+    <task id="LOCAL-00008" summary="REST API endpoints working">
+      <option name="closed" value="true" />
+      <created>1717319654793</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717319654793</updated>
+    </task>
+    <task id="LOCAL-00009" summary="REST API endpoints working">
+      <option name="closed" value="true" />
+      <created>1717320181040</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1717320181040</updated>
+    </task>
+    <task id="LOCAL-00010" summary="REST API endpoints working">
+      <option name="closed" value="true" />
+      <created>1717320672921</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1717320672921</updated>
+    </task>
+    <task id="LOCAL-00011" summary="REST API endpoints working">
+      <option name="closed" value="true" />
+      <created>1717320841435</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1717320841435</updated>
+    </task>
+    <task id="LOCAL-00012" summary="REST API endpoints working">
+      <option name="closed" value="true" />
+      <created>1717321560373</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1717321560373</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add Swagger">
+      <option name="closed" value="true" />
+      <created>1717406385939</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1717406385939</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add Test for sc5">
+      <option name="closed" value="true" />
+      <created>1717427599651</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1717427599651</updated>
+    </task>
+    <task id="LOCAL-00015" summary="change quantity and amount types from Double to BigDecimal">
+      <option name="closed" value="true" />
+      <created>1717509472593</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1717509472594</updated>
+    </task>
+    <task id="LOCAL-00016" summary="change quantity and amount types from Double to BigDecimal">
+      <option name="closed" value="true" />
+      <created>1717509520077</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1717509520077</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fix date format (show seconds on round minutes)">
+      <option name="closed" value="true" />
+      <created>1717513636043</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1717513636043</updated>
+    </task>
+    <task id="LOCAL-00018" summary="fix BigDecimal rounding">
+      <option name="closed" value="true" />
+      <created>1717514625184</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1717514625184</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add @EnableTransactionManagement to main class">
+      <option name="closed" value="true" />
+      <created>1717593841147</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1717593841147</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Subtask 1 complete" />
+    <MESSAGE value="Subtask 1 pricelist-2 complete" />
+    <MESSAGE value="Distribution algorithm implemented" />
+    <MESSAGE value="REST API endpoints working" />
+    <MESSAGE value="add Swagger" />
+    <MESSAGE value="add Test for sc5" />
+    <MESSAGE value="change quantity and amount types from Double to BigDecimal" />
+    <MESSAGE value="fix date format (show seconds on round minutes)" />
+    <MESSAGE value="fix BigDecimal rounding" />
+    <MESSAGE value="add @EnableTransactionManagement to main class" />
+    <option name="LAST_COMMIT_MESSAGE" value="add @EnableTransactionManagement to main class" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="GradleRunConfiguration">
+        <watch expression="timeSpan" />
+        <watch expression="datePrevReading" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

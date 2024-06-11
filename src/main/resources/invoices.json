@@ -1,0 +1,23 @@
+[
+  {
+    "documentDate": "2024-06-04T15:05:06Z",
+    "documentNumber": "10001",
+    "consumer": "Marko Boikov Tsvetkov",
+    "reference": "1",
+    "totalAmount": 111.37
+  },
+  {
+    "documentDate": "2024-06-04T15:05:06Z",
+    "documentNumber": "10002",
+    "consumer": "Kosena Assenova Vankova",
+    "reference": "3",
+    "totalAmount": 436.00
+  },
+  {
+    "documentDate": "2024-06-04T15:05:06Z",
+    "documentNumber": "10003",
+    "consumer": "Ludmil Aleksandrov Ilev",
+    "reference": "2",
+    "totalAmount": 237.13
+  }
+]
