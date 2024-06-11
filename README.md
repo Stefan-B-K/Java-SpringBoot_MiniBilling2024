@@ -1,5 +1,6 @@
-Mini Billing
+Mini Billing (Project 3/3 of Methodia 2024 Java 11 Workshop/Self-training)
 ============
+## 1. Приложение с четене от / записване на локални файлове (csv, json)
 
 ## Вход
 Ще разполагаме с потребители, отчети (например за газ) и цени.
@@ -108,4 +109,70 @@ Mini Billing
 ### Кодировка на файловете
 Файловете трябва да бъдат записани в UTF-8.
 
+````diff
++ ===================================== SOLUTION ==================================== 
++ Local file storage of the invoices: resources/ invoices.json and lines.json,
++ structured the same way, as SQL tables in DB.
++ Used 'com.opencsv' and 'com.fasterxml.jackson' for file reading/writing.
++ For the different json content of the storage files and of the output users' folders,
++ Jackson's OutputViews were applied.
++ Reapositories/DAOs interfaces were modeled for the storage files reading/writing - 
++ for future implementation and interchangable use of DB.
++ Separation of invocies generation/creation and publishing (to users' folders).
+````
 
+
+## 2. Приложение REST API
+Ще надградим приложението в няколко посоки:
+- за persistence ще използваме PostgreSQL (вместо файл)
+- приложението ще се изпълнява за неопределено време като уеб сървис
+- за вход/изход ще използваме HTTP контролери (файлове за цените)
+
+
+## HTTP ендпойнти
+Първо е записана HTTP операцията, която ендпойнтът трябва да поддържа, после е самият ендпойнт.
+Обикновено POST операциите съдържат body с данните, които трябва да бъдат приети.
+Изберете какъвто желаете формат. Може да използвате подобна структура, както тази от файловете.
+
+В къдрави скоби {} e записан URL параметър, който ще се приема от контролера.
+За цените няма ендпойнт, тях може да продължите да ги четете от файл.
+### POST /users
+За създаване на нов потребител.
+### GET /users/{user_ref}
+За получаване на информация за потребител
+### POST /users/{user_ref}/readings
+За подаване на отчет за потребител.
+### GET /users/{user_ref}/readings
+За получаване на отчетите на даден потребител.
+### POST /billing
+Ще стартира процес по генериране на фактурите за всички потребители.
+### GET /users/{user_ref}/invoices
+Ще връща фактурите на даден потребител.
+### GET /users/{user_ref}/live
+Ще връща текущата сметка (live billing), която все още не е фактурирана.
+
+## Postman/cURL
+За да изпращате заявки, може да си свалите [Postman](https://www.postman.com/downloads/),
+a cURL е команден инструмент, който също може да използвате.
+(Би трябва да е наличен под Windows и през PowerShell да можете да го извикате).
+
+## Модел на базата
+Водете се от HTTP ендпойнтите. Имате свободата да определите какъв ще бъде моделът.
+
+## Пропорционално разпределение на количествата
+Когато за отчетния период има повече от една цена, трябва да се **дистрибутира пропорционално количеството** на база на подпериодите, на които цените разделят дадения отчетен период.
+При разпределението на количеството може да се натрупа **грешка от закръгляне**, затова за последният подпериод ще бъде изчислен като разлика на общото потребление и сумата от разпределеното количество за предишните подпериоди (без последния период).
+Цените са валидни до края на последния ден от посочения период.
+
+````diff
++ ===================================== SOLUTION ==================================== 
++ SpringBoot JPA for ORM and Postgre deployed locally using Docker.
++ Centralized DataService for all five repositories.
++ BillingService with separate LinesGenerator and TimeSpanCalculator.
++ Multiple custom Jackson serializers/deserializers to keep the app backwords compatible
++ with json file storage and because of the multiple input date formats.
++ Custom error handling with the validation of the POST requests.
++ Swagger for a completness of the REST API.
++ The app works in both modes - as a local json invoices generator and as Web service.
+````
+https://java-springboot-minibilling2024.istef.space/
