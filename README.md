@@ -173,7 +173,7 @@ a cURL е команден инструмент, който също може д
 + Multiple custom Jackson serializers/deserializers to keep the app backwords compatible
 + with json file storage and because of the multiple input date formats.
 + Custom error handling with the validation of the POST requests.
-+ Swagger for a completness of the REST API.
++ Swagger for a completeness of the REST API.
 + The app works in both modes - as a local json invoices generator and as Web service.
 ````
 https://java-springboot-minibilling2024.istef.space/
