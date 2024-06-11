@@ -119,6 +119,7 @@ Mini Billing (Project 3/3 of Methodia 2024 Java 11 Workshop/Self-training)
 + Reapositories/DAOs interfaces were modeled for the storage files reading/writing - 
 + for future implementation and interchangable use of DB.
 + Separation of invocies generation/creation and publishing (to users' folders).
++ Run with env variables: 24-03 src/main/resources src/main/resources/output
 ````
 
 
