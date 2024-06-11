@@ -116,8 +116,8 @@ Mini Billing (Project 3/3 of Methodia 2024 Java 11 Workshop/Self-training)
 + Used 'com.opencsv' and 'com.fasterxml.jackson' for file reading/writing.
 + For the different json content of the storage files and of the output users' folders,
 + Jackson's OutputViews were applied.
-+ Reapositories/DAOs interfaces were modeled for the storage files reading/writing - 
-+ for future implementation and interchangable use of DB.
++ Repositories/DAOs interfaces were modeled for the storage files reading/writing - 
++ for future implementation and interchangeable use of DB.
 + Separation of invocies generation/creation and publishing (to users' folders).
 + Run with env variables: 24-03 src/main/resources src/main/resources/output
 ````
